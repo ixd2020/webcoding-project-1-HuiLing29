@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#butt{
+  background-color:#32a89e;
+  padding:15px;
+  width:110px;
+  border-radius:4%;
+}
+
+#butt a{
+  text-decoration:none;
+  color:white;
+  padding:1px;
+  margin:auto;
+}
+
+table, th, td{
+  
+  border:1px solid #32a89e;
+  border-collapse:collapse;
+}
+
+th, td{
+  padding:5px;
+  text-align:left;
+}
+
+th{
+  background-color:#32a89e;
+  color:white;
+  text-align:center;
+}
+
+ul{
+  
+}
+
+ul li{
+  
+}
+
+ul li a{
+  
+}
