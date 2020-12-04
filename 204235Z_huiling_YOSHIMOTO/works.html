@@ -14,6 +14,7 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
 </head>
+<!-------------------------END OF HEAD----------------------------->
 
 <body>
     <div class="nav">
@@ -23,11 +24,12 @@
             <li><a href="works.html">WORKS</a></li>
             <li><a href="contact.html">CONTACT US</a></li>
         </ul>
+        <button id="dark" onclick="myFunction()">Toggle dark mode</button>
     </div>
     <h1>WORKS OF YOSHIMOTO</h1>
+    <!--------------------------END OF NAV------------------------->
 
-
-    <div class="gp">
+    <!--<div class="gp">
         <div class="p1">
 
             <div class="size">
@@ -104,8 +106,49 @@
             </div>
         </div>
 
+    </div>-->
+    <!------------------------END OF GALLERY----------------------->
+    <div class="p2"><a data-fancybox="gallery" href="A1/after-the-acid-rain-(night).jpg">
+            <img class="small" src="A1/after-the-acid-rain-(night)_small.png">
+        </a>
+
+        <a data-fancybox="gallery" href="A1/cantwait.jpg">
+            <img class="small" src="A1/cantwait_small.png">
+        </a>
+
+        <a data-fancybox="gallery" href="A1/beach-towel-wow-project-(works-on-whatever).jpg">
+            <img class="small" src="A1/beach-towel-wow-project-(works-on-whatever).jpg">
+        </a>
+        <a data-fancybox="gallery" href="A1/damn-it-all-.jpg">
+            <img class="small" src="A1/damn-it-all-SMALL.png">
+        </a>
+
+        <a data-fancybox="gallery" href="A1/doggy_radio.jpg">
+            <img class="small" src="A1/doggy_radio_SMALL.png">
+        </a>
+        <a data-fancybox="gallery" href="A1/face.jpg">
+            <img class="small" src="A1/face_small.png">
+        </a>
+
+        <a data-fancybox="gallery" href="A1/its-gonna-be-o.k.!.jpg">
+            <img class="small" src="A1/its-gonna-be-o.k._SMALL.png">
+        </a>
+
+        <a data-fancybox="gallery" href="A1/knife-behind.png">
+            <img class="small" src="A1/knife-behind_SMALL.png">
+        </a>
+
+        <a data-fancybox="gallery" href="A1/Nara.Y_(Light_my_fire).jpg">
+            <img class="small" src="A1/Nara.Y_(Light_my_fire)_SMALL.png">
+        </a>
     </div>
 
+    <!-----------------------END OF GALLERY 2---------------------->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!---------------------------END OF TEST----------------------->
     <footer>
         <div class="box2">
             <p id="glitch">
@@ -113,11 +156,15 @@
             </p>
         </div>
     </footer>
+    <!-----------------------END OF FOOTER------------------------->
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+    </script>
 </body>
 
 </html>
