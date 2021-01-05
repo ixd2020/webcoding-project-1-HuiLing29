@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+header p {
+    margin: 0.5%;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+header p:hover {
+    text-decoration: underline;
+    color: darkgrey;
+}
+
+header div {
+    margin: 1%;
+}
+
+img {
+    width: 100%;
+}
+
+.size {
+    width: 1.5%;
+}
+
+.size2 {
+    width: 2.5%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.main p {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.search {
+    border: 1px solid lightgrey;
+    border-radius: 40px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.size3 {
+    width: 2.5%;
+}
+
+.size3 img {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.Gsearch {
+    background-color: #EEEEEE;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 1px solid white;
+}
+
+.Gsearch:hover {
+    border: 1px solid grey;
+}
+
+.lucky {
+    background-color: #EEEEEE;
+    padding: 1%;
+    border-radius: 5px;
+    margin-left: 1%;
+    font-size: 13px;
+    border: 1px solid white;
+}
+
+.lucky:hover {
+    border: 1px solid grey;
+}
+
+.Glang {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.parent {
+    margin-top: 5%;
+    font-size: 13px;
+}
+
+.lang a {
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+.lang a:hover {
+    text-decoration: underline;
+}
+
+.country {
+    background-color: lightgray;
+    color: dimgrey;
+    margin-top: 7%;
+    padding: 1%;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 1%;
+}
+
+.gp1 {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    color: dimgrey;
+}
+
+.gp2 {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+    color: dimgrey;
+}
+
+li {
+    margin: 1%;
+}
+
+li:hover {
+    text-decoration: underline;
+}
