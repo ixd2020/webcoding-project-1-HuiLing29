@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid lightgrey;
+    padding: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+header #he {
+    color: red;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+header #date {
+    font-size: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 70%;
+}
+
+li {
+    margin: 1%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.size {
+    width: 1.5%;
+    margin: 1%;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    margin-top: 2%;
+    display: flex;
+
+}
+
+section {
+    width: 65%;
+}
+
+.big {
+    display: flex;
+    width: 100%;
+}
+
+.text {
+    width: 60%;
+    margin: 1%;
+}
+
+.text .sub {
+    font-size: 12px;
+    margin-top: 2%;
+}
+
+.pic {
+    width: 75%;
+}
+
+.stamp {
+    color: darkgrey;
+    font-size: 10px;
+    text-align: right;
+    margin-top: 1%;
+}
+
+.stamp2 {
+    color: darkgrey;
+    font-size: 10px;
+    margin-top: 1%;
+    text-align: left;
+}
+
+.small {
+    margin: 1%;
+    display: flex;
+    width: 100%;
+}
+
+.s1,
+.s2,
+.s3 {
+    width: 33%;
+    margin-right: 1%;
+}
+
+.pic2 {
+    width: 100%;
+}
+
+h6 {
+    width: 100%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.cap {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 30%;
+    margin-left: 1%;
+}
+
+.side1,
+.side2,
+.side3,
+.side4,
+.side5 {
+    display: flex;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid lightgrey;
+}
+
+.num {
+    color: red;
+}
+
+.pic3 {
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h5 {
+    width: 60%;
+}
